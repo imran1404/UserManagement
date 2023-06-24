@@ -1,0 +1,72 @@
+/* ************ UserList Styling ************ */
+
+.list-card{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.single-list{
+    background-color: white;
+    border: 0.5px solid rgba(0, 0, 0, 0.27);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 10px;
+    height: 180px;
+    width: 150px;
+    margin: 20px;
+}
+.btn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* ********** AddUserForm Styling ***********/
+
+.form{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 2px solid black;
+    margin-top: 20px;
+}
+.form div{
+    margin: 10px;
+}
+
+/* *********** Heading Style *********** */
+
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.editform{
+    margin: 0px 5px;
+}
+.formm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ***** Extra **** */
+body{
+    border: 3px solid black;
+}
+input{
+    padding: 5px 12px;
+    font-size: 16px;
+}
+label{
+    font-weight: bold;
+}
